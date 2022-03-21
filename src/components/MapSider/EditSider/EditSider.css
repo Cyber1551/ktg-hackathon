@@ -1,0 +1,28 @@
+.editSider {
+    background-color: whitesmoke;
+}
+.header {
+    height: 6%;
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+    display: flex;
+}
+
+.content {
+    padding: 10px;
+    text-align: center;
+    height: 88%;
+}
+
+.footer {
+    height: 6%;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    border-top: 1px solid lightgray;
+}
+.footer button {
+    flex: 1;
+}
+
+

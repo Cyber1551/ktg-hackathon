@@ -1,0 +1,25 @@
+.routeSider {
+    background-color: whitesmoke;
+}
+.header {
+    height: 6%;
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+    display: flex;
+
+}
+.header .title {
+    flex: 9;
+    font-size: 20px;
+}
+.header .ant-btn {
+    flex: 1;
+}
+.routeList {
+    height: 94%;
+}
+.ant-list .ant-list-header {
+    padding: 5px;
+}
+
+
