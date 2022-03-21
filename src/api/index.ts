@@ -16,14 +16,14 @@ export const createRoute = async (route: IRoute):Promise<boolean> => {
 }
 
 export const removeRoute = async (route: IRoute):Promise<boolean> => {
-    const result = await axios.delete(`${API}/deleteRoute`, {
+    const result = await axios.post(`${API}/deleteRoute`, {
         data: route
     });
     return result.data;
 }
 
 export const updateRoute = async (route: IRoute):Promise<boolean> => {
-    const result = await axios.put(`${API}/updateRoute`, {
+    const result = await axios.post(`${API}/updateRoute`, {
         ...route
     });
     return result.data;
